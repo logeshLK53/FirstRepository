@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Account extends Exception {
+public class Account {
     public static void main(String args[])
     {
         Scanner scan=new Scanner(System.in);
@@ -14,11 +14,18 @@ public class Account extends Exception {
         }
         System.out.println("Rest of the code...");
     }
-    public static void withDraw(int ammount) throws Exception
+    public static void withDraw(int ammount) throws CustomException
     {
         if(ammount > 1000)
         {
-            throw new Exception("InsufficientBalanceException");
+            throw new CustomException("InsufficientBalanceException");
         }
+    }
+}
+class CustomException extends Exception
+{
+    public CustomException(String str)
+    {
+        super (str);
     }
 }
