@@ -1,8 +1,6 @@
 package Interface;
 
-import java.lang.ref.PhantomReference;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class Person implements Comparable<Person>{
