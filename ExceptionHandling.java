@@ -1,4 +1,3 @@
-import java.security.cert.TrustAnchor;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -35,7 +34,7 @@ public class ExceptionHandling extends Exception{
         finally{
             System.out.println("Program runs successfully...");
         }
-             
+    
     }
 }
 
