@@ -1,5 +1,7 @@
 package Interface;
 
+import java.util.ArrayList;
+
 public interface Printable {
-    void print();
+    void print(ArrayList<Employee> list);
 }
