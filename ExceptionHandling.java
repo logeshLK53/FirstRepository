@@ -16,7 +16,7 @@ public class ExceptionHandling extends Exception{
                  System.out.println("No String data");
             }
             int res=scan.nextInt();
-            res=res/0;
+            res/=0;
             System.out.println(res);
         }
         catch(InputMismatchException e)
