@@ -11,7 +11,7 @@ public class RandomAccess {
             //System.out.println((char)raf.read());
             System.out.println(raf.readLine());
             //raf.write(76);
-            //raf.writeDouble(53.53);
+            //raf.writeBytes("53.53");
             //raf.writeFloat((float)53.5);
             System.out.println(raf.length());
            
