@@ -1,4 +1,5 @@
-public class Ball {
+import java.io.Serializable;
+public class Ball implements Serializable{
     String color;
     int size;
     String material;
@@ -10,10 +11,10 @@ public class Ball {
         this.material = material;
         this.game = game;
     }
-    /*@Override
+    @Override
     public String toString() {
         return "Ball [color=" + color + ", game=" + game + ", material=" + material + ", size=" + size + "]";
-    }*/
+    }
      
     public String getColor() {
         return color;
@@ -40,7 +41,7 @@ public class Ball {
     public void setGame(String game) {
         this.game = game;
     }*/
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
      Ball b1 = new Ball("white", 180, "Rubber", "Football");
      Ball b2 = new Ball("red", 80, "Rubber", "Cricket");
 
@@ -48,5 +49,5 @@ public class Ball {
         //System.out.println(b2.toString());
         System.out.println(b1.color+" "+b1.game+" "+b1.material+" "+b1.size);
         System.out.println(b2.color+" "+b2.game+" "+b2.material+" "+b2.size);
-    }
+    }*/
 }
