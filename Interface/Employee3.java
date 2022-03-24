@@ -1,8 +1,8 @@
 package Interface;
 
-public class CloneEmployee implements Cloneable {
+public class Employee3 implements Cloneable {
     String date_of_birth;
-    public CloneEmployee(String date_of_birth)
+    public Employee3(String date_of_birth)
     {
         this.date_of_birth=date_of_birth;
     }
@@ -13,8 +13,8 @@ public class CloneEmployee implements Cloneable {
 
     public static void main(String args[]) throws CloneNotSupportedException
     {
-        CloneEmployee shallowCopy=new CloneEmployee("29-12-1998");
-        CloneEmployee deepCopy=(CloneEmployee)shallowCopy.clone();
+        Employee3 shallowCopy=new Employee3("29-12-1998");
+        Employee3 deepCopy=(Employee3)shallowCopy.clone();
         System.out.print(deepCopy.date_of_birth);
     }
 }
