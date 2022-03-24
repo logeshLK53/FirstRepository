@@ -1,0 +1,1 @@
+EmpModel [address=, company=zensar, dob=29/12/1998, exp=1.0, id=52cb3355-6d2d-4696-aced-1f131db706c4, name=LK, phone_no=9578188075, role=developer, salary=30000.0]
