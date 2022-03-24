@@ -1,3 +1,4 @@
+package JavaBasics;
 public class StringAndArrays {
     public static void main(String[] args) {
         String s="hai i am LK";
