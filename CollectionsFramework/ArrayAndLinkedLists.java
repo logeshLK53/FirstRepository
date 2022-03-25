@@ -1,4 +1,4 @@
-package CollectionsFramework.Lists;
+package CollectionsFramework;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
