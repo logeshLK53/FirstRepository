@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 
 public class Maps {
     public static void main(String[] args) {
@@ -24,6 +25,15 @@ public class Maps {
         System.out.println(set);
 
         map.forEach((k, v) -> {
+            System.out.println("Key = " + k + ", Value = " + v);
+        });
+
+        TreeMap<String,Integer> tm=new TreeMap<>();
+        tm.put("LK", 53);
+        tm.put("Kowsi", 2912);
+        tm.put("Teju", 1234);
+        System.out.println();
+        tm.forEach((k, v) -> {
             System.out.println("Key = " + k + ", Value = " + v);
         });
     }
