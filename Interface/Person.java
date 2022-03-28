@@ -14,7 +14,7 @@ public class Person implements Comparable<Person>{
         this.height=height;
         this.weight=weight;
     }
-
+    @Override
     public int compareTo(Person p)
     {
         return this.weight - p.weight;
